@@ -1,0 +1,26 @@
+{
+  "extends": "airbnb-base",
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "impliedStrict ": true
+    }
+  },
+  "rules": {
+    "semi": 2,
+    "indent": 0,
+    "one-var": 0,
+    "max-len": [
+      2,
+      150
+    ],
+    "new-cap": "off",
+    "require-jsdoc": "off"
+  },
+  "env": {
+    "node": true,
+    "mongo": true,
+    "es6": true
+  }
+}

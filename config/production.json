@@ -1,0 +1,10 @@
+{
+  "db": "mongodb://<user>:<pass>@<db>:<port>",
+  "secret": "<Secrret word for sha encryption>",
+
+  "auth": {
+    "jwt": {
+      "secret": "<JWT secret>"
+    }
+  }
+}
